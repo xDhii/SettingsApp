@@ -164,6 +164,10 @@ struct ItemToggle: View {
 }
 
 #Preview {
-//    FormItemsListView()
-    IcloudProfileItem(userName: "Adriano", profilePic: "adriano")
+    Form {
+        Section {
+//                FormItemsListView()
+            IcloudProfileItem(userName: "Adriano", profilePic: "adriano")
+        }
+    }
 }
