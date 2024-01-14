@@ -12,6 +12,7 @@
 		BCB970612B50B2C6008CF9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB970602B50B2C6008CF9BB /* Assets.xcassets */; };
 		BCB970642B50B2C6008CF9BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB970632B50B2C6008CF9BB /* Preview Assets.xcassets */; };
 		BCB9706B2B53506D008CF9BB /* FormItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9706A2B53506D008CF9BB /* FormItemsListView.swift */; };
+		BCB9706E2B543BAA008CF9BB /* WiFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9706D2B543BAA008CF9BB /* WiFiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BCB970602B50B2C6008CF9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB970632B50B2C6008CF9BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCB9706A2B53506D008CF9BB /* FormItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormItemsListView.swift; sourceTree = "<group>"; };
+		BCB9706D2B543BAA008CF9BB /* WiFiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BCB9705C2B50B2C4008CF9BB /* SettingsAppApp.swift */,
 				BCB9705E2B50B2C4008CF9BB /* ContentView.swift */,
+				BCB9706D2B543BAA008CF9BB /* WiFiView.swift */,
 				BCB9706A2B53506D008CF9BB /* FormItemsListView.swift */,
 				BCB970602B50B2C6008CF9BB /* Assets.xcassets */,
 				BCB970622B50B2C6008CF9BB /* Preview Content */,
@@ -143,6 +146,7 @@
 				BCB9706B2B53506D008CF9BB /* FormItemsListView.swift in Sources */,
 				BCB9705F2B50B2C4008CF9BB /* ContentView.swift in Sources */,
 				BCB9705D2B50B2C4008CF9BB /* SettingsAppApp.swift in Sources */,
+				BCB9706E2B543BAA008CF9BB /* WiFiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
