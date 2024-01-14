@@ -51,7 +51,7 @@ struct IcloudProfileItem: View {
     }
 }
 
-struct ItemNavigationLinkPicker: View {
+struct ItemNavigationLinkPickerIcon: View {
     @State var selectedItem: String = "DefaultValue"
     var icon: String
     var name: String
@@ -61,27 +61,44 @@ struct ItemNavigationLinkPicker: View {
 
     var body: some View {
         HStack {
-                Image(systemName: icon)
-                    .resizable()
-                    .scaledToFit()
-                    .padding(.horizontal, 5)
-                    .padding(.vertical, 4)
-                    .frame(width: 30, height: 30)
-                    .foregroundStyle(foregroundColor)
-                    .background(backgroundColor)
-                    .clipShape(RoundedRectangle(cornerRadius: 7))
-                
-                Picker(name, selection: $selectedItem) {
-                    ForEach(itemsList, id: \.self) {
-                        Text($0)
-                    }
+            Image(systemName: icon)
+                .resizable()
+                .scaledToFit()
+                .padding(.horizontal, 5)
+                .padding(.vertical, 4)
+                .frame(width: 30, height: 30)
+                .foregroundStyle(foregroundColor)
+                .background(backgroundColor)
+                .clipShape(RoundedRectangle(cornerRadius: 7))
+
+            Picker(name, selection: $selectedItem) {
+                ForEach(itemsList, id: \.self) {
+                    Text($0)
                 }
-                .pickerStyle(.navigationLink)
+            }
+            .pickerStyle(.navigationLink)
         }
     }
 }
 
 struct ItemNavigationLink: View {
+    @State var selectedItem: String = "DefaultValue"
+    var name: String
+    var itemsList: [String]
+
+    var body: some View {
+        HStack {
+            Picker(name, selection: $selectedItem) {
+                ForEach(itemsList, id: \.self) {
+                    Text($0)
+                }
+            }
+            .pickerStyle(.navigationLink)
+        }
+    }
+}
+
+struct ItemNavigationLinkIcon: View {
     var icon: String
     var name: String
     var backgroundColor: Color
