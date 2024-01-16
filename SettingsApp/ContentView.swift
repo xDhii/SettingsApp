@@ -168,7 +168,27 @@ struct ContentView: View {
                                                                       blue: 1.001))
                     }
 
-                    Section("Tests") { }
+                    Section("Tests") {
+                        // Test Components
+                        NavigationLink {
+                            WiFiView()
+                        } label: {
+                            HStack {
+                                Image(systemName: "wifi")
+                                    .resizable()
+                                    .frame(width: 18, height: 18)
+                                    .scaledToFit()
+                                    .padding(.horizontal, 5)
+                                    .padding(.vertical, 4)
+                                    .frame(width: 30, height: 30)
+                                    .foregroundStyle(.white)
+                                    .background(.blue)
+                                    .clipShape(RoundedRectangle(cornerSize: CGSize(width: 6, height: 5)))
+                                
+                                Text("Wi-Fi View Test")
+                            }
+                        }
+                    }
                 }
                 .navigationTitle("Ajustes")
             }
