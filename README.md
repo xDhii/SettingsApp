@@ -3,6 +3,8 @@
 ## Sobre o Projeto
 Este projeto representa um esforço meticuloso para replicar a funcionalidade e a estética do aplicativo "Settings" do iPhone. Desenvolvido com Swift e SwiftUI, ele é um testemunho do meu compromisso em aprofundar minhas habilidades em desenvolvimento iOS. Como QA Sênior na CI&T, este projeto marca uma etapa significativa na minha jornada rumo à transição para o desenvolvimento iOS.
 
+<img src="appDemo.gif" alt="Alt text" width="30%">
+
 ## Características Técnicas
 - **Desenvolvimento com Swift e SwiftUI**: O projeto utiliza a mais recente tecnologia da Apple para desenvolvimento de UI, aproveitando a linguagem Swift e o framework SwiftUI para criar uma interface de usuário fluida e responsiva.
 - **Componentes Genéricos e Reutilizáveis**: Uma das principais realizações deste projeto é o desenvolvimento de componentes genéricos, que podem ser reutilizados em diversas partes do aplicativo. Isso inclui elementos como `ItemNavigationLink`, `ItemToggle` e `IcloudProfileItem`, todos projetados para serem facilmente configuráveis com diferentes parâmetros e estados.
