@@ -1,40 +1,40 @@
-# Clone do App "Settings" do iPhone
+# iPhone "Settings" App Clone
 
-## Sobre o Projeto
-Este projeto representa um esforço meticuloso para replicar a funcionalidade e a estética do aplicativo "Settings" do iPhone. Desenvolvido com Swift e SwiftUI, ele é um testemunho do meu compromisso em aprofundar minhas habilidades em desenvolvimento iOS. Como QA Sênior na CI&T, este projeto marca uma etapa significativa na minha jornada rumo à transição para o desenvolvimento iOS.
+## About the Project
+This project represents a meticulous effort to replicate the functionality and aesthetics of the iPhone "Settings" app. Developed with Swift and SwiftUI, it is a testament to my commitment to deepen my iOS development skills. As a Senior QA at CI&T, this project marks a significant step in my journey towards transitioning to iOS development.
 
 <img src="appDemo.gif" alt="Alt text" width="30%">
 
-## Características Técnicas
-- **Desenvolvimento com Swift e SwiftUI**: O projeto utiliza a mais recente tecnologia da Apple para desenvolvimento de UI, aproveitando a linguagem Swift e o framework SwiftUI para criar uma interface de usuário fluida e responsiva.
-- **Componentes Genéricos e Reutilizáveis**: Uma das principais realizações deste projeto é o desenvolvimento de componentes genéricos, que podem ser reutilizados em diversas partes do aplicativo. Isso inclui elementos como `ItemNavigationLink`, `ItemToggle` e `IcloudProfileItem`, todos projetados para serem facilmente configuráveis com diferentes parâmetros e estados.
-- **UI/UX Fiel ao Original**: Esforço considerável foi dedicado para assegurar que a interface do usuário se assemelhasse o máximo possível ao aplicativo "Settings" original, prestando atenção aos detalhes de design, esquemas de cores e a experiência geral do usuário.
-- **Gerenciamento Eficiente de Estados**: O uso eficaz de `@State` e `@Binding` para gerenciar estados de componentes reflete uma compreensão profunda do gerenciamento de estados no SwiftUI.
-- **Navegação Intuitiva**: A estrutura de navegação foi cuidadosamente planejada para espelhar a experiência de navegação do aplicativo original, permitindo uma transição suave entre as diferentes configurações.
+## Technical Features
+- **Developed with Swift and SwiftUI**: The project leverages the latest Apple technology for UI development, utilizing the Swift language and SwiftUI framework to create a smooth and responsive user interface.
+- **Generic and Reusable Components**: One of the main achievements of this project is the development of generic components that can be reused in various parts of the application. This includes elements like `ItemNavigationLink`, `ItemToggle`, and `IcloudProfileItem`, all designed to be easily configurable with different parameters and states.
+- **True to Original UI/UX**: Considerable effort has been dedicated to ensuring that the user interface closely resembles the original "Settings" app, paying attention to design details, color schemes, and the overall user experience.
+- **Efficient State Management**: The effective use of `@State` and `@Binding` to manage component states reflects a deep understanding of state management in SwiftUI.
+- **Intuitive Navigation**: The navigation structure has been carefully planned to mirror the original app's navigation experience, allowing a seamless transition between different settings.
 
-## Começando
+## Getting Started
 
-### Pré-requisitos
-- macOS 14.0 ou superior.
-- Xcode 15.0 ou superior.
+### Prerequisites
+- macOS 14.0 or higher.
+- Xcode 15.0 or higher.
 
-### Instalação
-1. Clone o repositório utilizando o comando: `git clone https://github.com/xDhii/SettingsApp.git`
-2. Abra o projeto `SettingsApp.xcodeproj` no Xcode.
-3. Selecione o simulador ou dispositivo alvo e inicie a execução do aplicativo.
+### Installation
+1. Clone the repository using the command: `git clone https://github.com/xDhii/SettingsApp.git`
+2. Open the project `SettingsApp.xcodeproj` in Xcode.
+3. Select the target simulator or device and start running the application.
 
-## Uso
-Este aplicativo serve como uma ferramenta educacional para desenvolvedores que estão aprendendo Swift e SwiftUI, além de ser um exemplo prático de replicação de um aplicativo iOS existente.
+## Usage
+This application serves as an educational tool for developers learning Swift and SwiftUI, as well as a practical example of replicating an existing iOS app.
 
-## Contribuições
-Contribuições são encorajadas e valorizadas. Caso deseje contribuir, por favor, crie um fork do projeto, faça suas alterações e envie um pull request para revisão.
+## Contributions
+Contributions are encouraged and valued. If you wish to contribute, please fork the project, make your changes, and submit a pull request for review.
 
-## Agradecimentos
-Meus sinceros agradecimentos a todos os recursos educacionais, comunidades de desenvolvedores e indivíduos que contribuíram para meu estudo e desenvolvimento deste projeto.
+## Acknowledgments
+My sincere thanks to all educational resources, developer communities, and individuals who contributed to my study and the development of this project.
 
-## Sobre o Autor
-- **Adriano Valumin** - Atualmente um QA Sênior com uma paixão crescente por desenvolvimento iOS. Este projeto é um marco na minha jornada para me tornar um desenvolvedor iOS.
+## About the Author
+- **Adriano Valumin** - Currently a Senior QA with a growing passion for iOS development. This project is a milestone in my journey to become an iOS developer.
 
-## Contato
+## Contact
 - Email: adriano.valumin@outlook.com
 - LinkedIn: https://www.linkedin.com/in/adrianovalumin/
